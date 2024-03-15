@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    video{
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: -99;
+}
+.bb{
+    width: 100%;
+}
+.box2{
+    position: absolute;
+    top: 35%; left: 25%; right: 25%; bottom: 25%;
+    text-align: center;
+    padding-top: 3%;
+    width: 50%;
+    height: 250px; 
+    background: rgba(194, 226, 79, 0.6);
+    border-radius: 20px;
+}
+.box2 p{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(104, 8, 61);
+}
+</style>
+</head>
+<body>
+    <div class="bb">
+        <video autoplay muted loop>
+            <source src="file/cover.mp4" type="video/mp4">
+        </video>
+        <div class="box2">
+            <p>Thank You For Registering</p>
+         </div>
+    </div>
+
+</body>
+</html>
